@@ -18,7 +18,7 @@ FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 ![Recommended folder setup](image-1.png)
 
 ## Patching Client
-1. Open AppSettings.xml in the 2021E folder and replace the code with the following:
+1. Open AppSettings.xml in the 2021E client folder and replace the code with the following:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings>
@@ -48,7 +48,7 @@ FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 5. Click on `File` > `Patch File...` and save it as `Patched.exe`.
     - Close x32dbg, then delete, rename, or move the old `RobloxPlayerBeta.exe`. After that, rename `Patched.exe` to `RobloxPlayerBeta.exe`.
 
-6. Inside of the client folder create a new folder called `ClientSettings` and inside of that create a new file called `ClientSettings.json` and download [this file](https://www.mediafire.com/file/ktli6i6dkcxf1u4/ClientAppSettings.json/file) and move it into the folder.
+6. Inside of the client folder create a new folder called `ClientSettings` and inside of that create a new file called `ClientAppSettings.json` and download [this file](https://www.mediafire.com/file/ktli6i6dkcxf1u4/ClientAppSettings.json/file) and move it into the folder.
 
 7. Extract the `Content.7z` and then copy all of the files (NOT MOVE) into the client directory.
     - After that create a batch file in the client directory with the following code:
