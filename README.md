@@ -18,6 +18,7 @@ I also do recommend using the webserver from this repository, it already contain
 
 <br>
 Pre-Patched versions are now released! If you do not want to patch 2021E yourself, I have provided a download in the releases section. Although, I still heavily recommend patching it yourself for experience, I don't like skidding but its not skidding if youre learning atleast.
+<br>
 
 **Recommended folder setup:**
 ![Recommended folder setup](image-1.png)
