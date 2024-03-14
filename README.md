@@ -13,6 +13,11 @@ FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 - [2021E Content](https://www.mediafire.com/file/az99ei05rnp74pw/Content.7z/file)
 - [Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
 
+If you cannot access the links, or they are taken down please use the downloads in the archive directory.<br>
+I also do recommend using the webserver from this repository, it already contains the CoreGuis, and a couple of QoL fixes.
+
+<br>
+Pre-Patched versions are now released! If you do not want to patch 2021E yourself, I have provided a download in the releases section. Although, I still heavily recommend patching it yourself for experience, I don't like skidding but its not skidding if youre learning atleast.
 
 **Recommended folder setup:**
 ![Recommended folder setup](image-1.png)
@@ -91,12 +96,15 @@ Done! You have successfully patched RCCService.
 1. Extract the `Webserver.7z` and move it to your main 2021E folder.
     - Inside the `Webserver` folder, run uwamp.exe, and click allow twice if prompted by Windows Firewall.
     - If apache does not start make sure you have the Visual C++ Runtime installed.
+2. Downloads the CoreGuis from the `/coreguis/` directory in this repository, or download the compressed `CoreGuis.zip` file.
+   - Once downloaded/extracted go into the `www` folder, and open the directory `.test` and then `asset`.
+   - Copy all coregui files into that directory, there is no need to change the asset ids, or scripts.
 
 Done! You have successfully set up the webserver.
 
 ## Playing
 *you must run these in order!*
-1. Run `UwAmp.exe` in the `Webserver` folder. (If not already running)
+1. Run `UwAmp.exe` in the `Webserver` folder. (If not already running, run UwAmpUAC if you run into issues)
 2. Run `RCCService.bat` in the `RCCService` folder.
 3. Run `Client.bat` in the client folder.
 
@@ -105,6 +113,7 @@ Done! You have successfully set up the webserver.
 - If you would like to configure the username, avatar, etc. Its all in the webserver folder in the `www` directory.
 - If you would like to test other games, inside of the `www` directory open the `.127.0.0.1` folder, and inside of assets upload a `.rbxl` file (make sure to remove the .rbxl extension from the file name) and rename it to an id.
     - In order to actually play it modify gameserver.json in RCCService, change the id inside of the `PlaceFetchUrl` to the id of the place asset.
+    - NOTE: Roblox did an update to their binary format, new place files will NOT work, find a way to downgrade or use an older place file. (since 3/14/24)
     
 
     Example:
