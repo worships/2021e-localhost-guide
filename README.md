@@ -16,9 +16,10 @@ FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 If you cannot access the links, or they are taken down please use the downloads in the archive directory.<br>
 I also do recommend using the webserver from this repository, it already contains the CoreGuis, and a couple of QoL fixes.
 
-<br>
+<!-- Temporarilly removed, got my github account suspended. -->
+<!--<br>
 Pre-Patched versions are now released! If you do not want to patch 2021E yourself, I have provided a download in the releases section. Although, I still heavily recommend patching it yourself for experience, I don't like skidding but its not skidding if youre learning atleast.
-<br>
+<br>-->
 <br>
 
 **Recommended folder setup:**
@@ -115,7 +116,7 @@ Done! You have successfully set up the webserver.
 - If you would like to configure the username, avatar, etc. Its all in the webserver folder in the `www` directory.
 - If you would like to test other games, inside of the `www` directory open the `.127.0.0.1` folder, and inside of assets upload a `.rbxl` file (make sure to remove the .rbxl extension from the file name) and rename it to an id.
     - In order to actually play it modify gameserver.json in RCCService, change the id inside of the `PlaceFetchUrl` to the id of the place asset.
-    - NOTE: Roblox did an update to their binary format, new place files will NOT work, find a way to downgrade or use an older place file. (since 3/14/24)
+    - NOTE: I believe roblox did a change to their binary and xml formats on some channels (not live or any main ones, I am on an experimental channel), as of 3/14/24 to 3/16/24 the new binary format would not work with 2021E. This has since been fixed and you can use new place files. Please watch out for any of these changes in the future and make archives of your games that you want to play on it in the older format.
     
 
     Example:
