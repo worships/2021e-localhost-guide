@@ -117,6 +117,7 @@ Done! You have successfully set up the webserver.
 - If you would like to test other games, inside of the `www` directory open the `.127.0.0.1` folder, and inside of assets upload a `.rbxl` or `.rbxlx` file (make sure to remove the .rbxl/.rbxlx extension from the file name) and rename it to an id.
     - In order to actually play it modify gameserver.json in RCCService, change the id inside of the `PlaceFetchUrl` to the id of the place asset.
     - NOTE: I believe roblox did a change to their binary and xml formats on some channels (not live or any main ones, I am on an experimental channel), as of 3/14/24 to 3/16/24 the new binary format would not work with 2021E. This has since been fixed and you can use new place files. Please watch out for any of these changes in the future and make archives of your games that you want to play on it in the older format.
+- If you would like to get character appearances/avatars to load, just setup a simple startercharacter in starterplayer. I won't explain how todo this cause it is super simple and if you cant figure it out you shouldn't even be following this guide. There is also the option of trying to fix it in the webserver.
     
 
     Example:
