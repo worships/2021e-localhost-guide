@@ -13,7 +13,7 @@ FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 - [2021E Content](https://www.mediafire.com/file/az99ei05rnp74pw/Content.7z/file)
 - [Visual C++ Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
 
-If you cannot access the links, or they are taken down please use the downloads in the archive directory.<br>
+If you cannot access the links, or if they are taken down please use the downloads in the archive directory.<br>
 I also do recommend using the webserver from this repository, it already contains the CoreGuis, and a couple of QoL fixes.
 
 <!-- Temporarilly removed, got my github account suspended. -->
@@ -36,7 +36,7 @@ Pre-Patched versions are now released! If you do not want to patch 2021E yoursel
 ```
 
 2. Open x32dbg, then drag the client into the window.
-    -  Up top, click on `Smybols` then in the window look for `RobloxPlayerBeta.exe` and double click it.
+    - Up top, click on `Smybols` then in the window look for `RobloxPlayerBeta.exe` and double click it.
     - Up top, there should be a solid right arrow. Click on it twice, this is to get around VMProtect.
 
 3. Right click anywhere on the code and click `Search for` > `All Modules` > `String references...`
