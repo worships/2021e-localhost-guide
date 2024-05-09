@@ -1,6 +1,7 @@
 # 2021E Local Host Patching Guide
 
 This guide is only how to patch the Roblox 2021E client to run on a local host. This guide is not for any other purpose, I do not recommend hosting this as a revival.
+This is a fixed version of jetrays guide, with modified web server, no sketchy DLLs, and way better formatting. All credit originally goes to him.
 
 FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 
@@ -113,7 +114,7 @@ Done! You have successfully set up the webserver.
 
 <br>
 
-- If you would like to configure the username, avatar, etc. Its all in the webserver folder in the `www` directory.
+- If you would like to configure the username, avatar, etc. Its all in the webserver folder in the `www` directory. Or you could just use the launcher scripts in the web server, if you know how to use them, I may document them later if I feel like it.
 - If you would like to test other games, inside of the `www` directory open the `.127.0.0.1` folder, and inside of assets upload a `.rbxl` or `.rbxlx` file (make sure to remove the .rbxl/.rbxlx extension from the file name) and rename it to an id.
     - In order to actually play it modify gameserver.json in RCCService, change the id inside of the `PlaceFetchUrl` to the id of the place asset.
     - NOTE: I believe roblox did a change to their binary and xml formats on some channels (not live or any main ones, I am on an experimental channel), as of 3/14/24 to 3/16/24 the new binary format would not work with 2021E. This has since been fixed and you can use new place files. Please watch out for any of these changes in the future and make archives of your games that you want to play on it in the older format.
