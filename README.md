@@ -52,7 +52,8 @@ Pre-Patched versions are now released! If you do not want to patch 2021E yoursel
     <br>
     <br>
     - Example of what you should see:<br>
-    ![example](image-2.png)
+    
+    [example](image-2.png)
 
 5. Click on `File` > `Patch File...` and save it as `Patched.exe`.
     - Close x32dbg, then delete, rename, or move the old `RobloxPlayerBeta.exe`. After that, rename `Patched.exe` to `RobloxPlayerBeta.exe`.
