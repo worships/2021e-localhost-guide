@@ -65,6 +65,7 @@ Pre-Patched versions are now released! If you do not want to patch 2021E yoursel
     start RobloxPlayerBeta.exe -a "http://localhost/Login/Negotiate.ashx" -j "http://localhost/game/placelauncher.ashx" -t "1"
     ```
     - When you are done, it should look like the following:
+      <br>
     ![alt text](image-3.png)
 
 Done! You have successfully patched the client.
