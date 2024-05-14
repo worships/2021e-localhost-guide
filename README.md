@@ -51,7 +51,8 @@ Pre-Patched versions are now released! If you do not want to patch 2021E yoursel
     - Right click on the `push ebp` instruction and click `Assemble` or press space, then change the whole instruction to `ret`. 
     <br>
     <br>
-    - Example of what you should see:
+    - Example of what you should see:<br>
+    
     ![example](image-2.png)
 
 5. Click on `File` > `Patch File...` and save it as `Patched.exe`.
