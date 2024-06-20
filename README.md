@@ -5,6 +5,9 @@ This is a fixed version of jetrays guide, with modified web server, no sketchy D
 
 FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
 
+## larp harder aep
+![image](https://github.com/worships/2021e-localhost-guide/assets/169381911/06e01179-561f-4c98-8c78-40de87ddf939)
+
 ## Requirements
 - [x32dbg](https://x64dbg.com/#start)
 - [HxD](https://mh-nexus.de/en/hxd/)
