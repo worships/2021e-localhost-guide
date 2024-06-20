@@ -3,10 +3,7 @@
 This guide is only how to patch the Roblox 2021E client to run on a local host. This guide is not for any other purpose, I do not recommend hosting this as a revival.
 This is a fixed version of jetrays guide, with modified web server, no sketchy DLLs, and way better formatting. All credit originally goes to him.
 
-FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE!
-
-## larp harder aep
-![image](https://github.com/worships/2021e-localhost-guide/assets/169381911/06e01179-561f-4c98-8c78-40de87ddf939)
+FILTERING IS DISABLED, AND SIGNING IS DISABLED! THIS IS NOT SECURE! (as a side note, to aep, its ironic how after i unadded you, you got all mad and flustered. funny how you deleted ur msgs too)
 
 ## Requirements
 - [x32dbg](https://x64dbg.com/#start)
