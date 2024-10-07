@@ -1,3 +1,6 @@
+# ⚠️ !!! DO NOT USE THIS !!! please for the love of god do not use or follow this guide, its so unsecure, anyone can just link assets to external sites, check out my new project: https://github.com/worships/roblox-auto-patcher
+# this actually patches 2008-2019, sadly not 2020-2021 since its more involved. but please do NOT use this, and check out the auto patcher i wrote
+
 # 2021E Local Host Patching Guide
 
 This guide is only how to patch the Roblox 2021E client to run on a local host. This guide is not for any other purpose, I do not recommend hosting this as a revival.
